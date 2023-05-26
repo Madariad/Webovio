@@ -1,0 +1,151 @@
+@font-face {
+    font-weight: 700;
+    font-family: "poppins";
+    src: url("./font/Poppins-Bold.ttf");
+}
+@font-face {
+    font-weight: 400;
+    font-family: "poppins";
+    src: url("./font/Poppins-Regular.ttf");
+}
+
+
+/* general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1290px;
+
+    margin: 0 auto;
+
+    position: relative; 
+    
+}
+  
+  
+
+
+/*-------------------------------------------------------------------- header */
+.header{
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+
+}
+.header__fon{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background: url('./img/Bitmap-1.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+/* header nav */
+
+
+.header__nav {
+    position: absolute;
+    top: 28px;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0px 20px;
+}
+  
+.header__nav-burgerMenu {
+    position: relative;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+
+    width: 40px;
+    height: 40px;
+
+    background-color: #F5F6F7;
+
+    border-radius: 50px;
+}
+  
+.header__nav-burgerMenu > span {
+    display: block; 
+
+    width: 20px;
+    height: 2px;
+
+
+    background-color: #000000;
+}
+
+
+
+/* header text */
+
+
+.header__text{
+    position: absolute;
+    top: 150px;
+
+    width: 50%;
+    height: 412px;
+
+    font-family: 'poppins', Courier, monospace;
+    font-weight: 400;
+
+
+    color: #FFFFFF;
+
+    padding: 0px 20px;
+
+
+}
+.header__text-header{
+     font-size: 14px;
+     line-height: 21px;
+}
+
+.header__text-title{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+
+    padding-top: 22px;
+}
+
+.header__text-subtitle{
+    width: 581px;
+
+    line-height: 26px;
+
+    padding-top: 24px;
+    padding-bottom: 124px;
+
+}
+
+.header__text-btn{
+    color:  #FFD723;
+    font-weight: 700;
+    
+}
+.header__text-btn::before{
+    content: ">";
+}
+
+
+/*--------------------------------------------------------- main */
